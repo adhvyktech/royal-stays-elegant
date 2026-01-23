@@ -8,8 +8,12 @@ import {
   Wind,
   Check,
 } from "lucide-react";
-import roomAcImage from "@/assets/room-ac.jpg";
-import roomNonAcImage from "@/assets/room-nonac.jpg";
+import { galleryImages } from "@/data/images";
+
+// Select specific images for the rooms
+// Select specific images for the rooms
+const roomAcImage = "/images/IMG_20260120_162109_00_248_PureShot_2026-01-23_13-15-33_screenshot.jpg";
+const roomNonAcImage = "/images/IMG_20260120_162935_00_251_PureShot_2026-01-23_13-22-07_screenshot.jpg";
 
 const rooms = [
   {
