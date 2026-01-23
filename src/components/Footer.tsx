@@ -20,7 +20,7 @@ const Footer = () => {
             <p>
               Built and Managed by{" "}
               <a
-                href="https://adhvyktech.com"
+                href="https://adhvyk.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gold-light hover:text-gold transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
               </a>{" "}
               –{" "}
               <a
-                href="https://twitter.com/SarveshAstraX"
+                href="https://instagram.com/sarveshastrax"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gold-light hover:text-gold transition-colors"
