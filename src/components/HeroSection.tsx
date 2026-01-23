@@ -2,7 +2,7 @@ import { Phone, View } from "lucide-react";
 import heroImage from "@/assets/hero-hotel.jpg";
 
 const highlights = [
-  { icon: "💑", text: "Couple Friendly" },
+  { icon: "✨", text: "Premium Comfort" },
   { icon: "🕐", text: "24 Hours Check-in / Check-out" },
   { icon: "📍", text: "Prime City Location" },
 ];

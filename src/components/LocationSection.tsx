@@ -27,7 +27,7 @@ const whyChoose = [
   { icon: Camera, text: "24/7 CCTV surveillance" },
   { icon: Flame, text: "Fire Safety standards compliant" },
   { icon: Headphones, text: "Front Desk support available" },
-  { icon: Shield, text: "Safe for single ladies & families" },
+  { icon: Shield, text: "Couple Friendly – Safe for all guests" },
   { icon: Users, text: "Ideal for corporate, groups & transit guests" },
 ];
 
@@ -97,7 +97,7 @@ const LocationSection = () => {
         {/* Bottom Highlight */}
         <div className="mt-8 p-6 bg-primary/5 rounded-2xl border border-primary/10 text-center">
           <p className="text-lg text-foreground">
-            <span className="font-serif font-semibold">30+ well-maintained rooms</span>{" "}
+            <span className="font-serif font-semibold">20+ well-maintained rooms</span>{" "}
             ready to welcome you with comfort and hospitality
           </p>
         </div>

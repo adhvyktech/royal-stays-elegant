@@ -3,7 +3,7 @@ import { Building2, Users, Briefcase, Heart } from "lucide-react";
 const features = [
   {
     icon: Building2,
-    title: "30+ Rooms",
+    title: "20+ Rooms",
     description: "Well-maintained accommodations",
   },
   {
@@ -74,9 +74,9 @@ const AboutSection = () => {
           <div className="relative">
             <div className="card-hotel p-8 md:p-10">
               <div className="text-center mb-8">
-                <span className="text-6xl md:text-7xl font-serif font-bold text-primary">
-                  30+
-                </span>
+              <span className="text-6xl md:text-7xl font-serif font-bold text-primary">
+                20+
+              </span>
                 <p className="text-muted-foreground mt-2">
                   Well-Maintained Rooms
                 </p>
