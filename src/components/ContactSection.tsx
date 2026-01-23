@@ -21,12 +21,35 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          // TODO: Replace with your actual Web3Forms access key
+          access_key: "f7a283f8-4718-440f-8844-49ececcce3c7",
+          ...formData,
+          subject: "New Enquiry from Royal Inn Lodge Website",
+        }),
+      });
 
-    toast.success("Enquiry sent successfully! We'll get back to you soon.");
-    setFormData({ name: "", phone: "", email: "", message: "" });
-    setIsSubmitting(false);
+      const result = await response.json();
+
+      if (result.success) {
+        toast.success("Enquiry sent successfully! We'll get back to you soon.");
+        setFormData({ name: "", phone: "", email: "", message: "" });
+      } else {
+        toast.error(result.message || "Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      toast.error("Failed to send enquiry. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
