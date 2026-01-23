@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-hotel.jpg";
 
 const highlights = [
   { icon: "✨", text: "Premium Comfort" },
-  { icon: "🕐", text: "24 Hours Check-in / Check-out" },
+  { icon: "🛡️", text: "Safe & Secure Stay" },
   { icon: "📍", text: "Prime City Location" },
 ];
 
