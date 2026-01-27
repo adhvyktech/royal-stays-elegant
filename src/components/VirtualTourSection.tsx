@@ -1,4 +1,4 @@
-import { View, Play } from "lucide-react";
+import { View } from "lucide-react";
 
 const VirtualTourSection = () => {
   return (
@@ -20,28 +20,14 @@ const VirtualTourSection = () => {
 
           {/* Virtual Tour Placeholder */}
           <div className="card-hotel overflow-hidden">
-            <div className="relative aspect-video bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-              {/* Placeholder Visual */}
-              <div className="absolute inset-0 opacity-20">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_hsl(var(--primary))_0%,_transparent_50%)]" />
-              </div>
-
-              {/* Content */}
-              <div className="relative z-10 text-center px-6">
-                <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:scale-105 transition-transform shadow-card">
-                    <Play className="w-7 h-7 text-primary-foreground ml-1" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-foreground mb-2">
-                  360° Virtual Tour Coming Soon
-                </h3>
-                <p className="text-muted-foreground max-w-md mx-auto">
-                  We're preparing an immersive virtual tour experience for you.
-                  In the meantime, explore our gallery or contact us for a
-                  walkthrough.
-                </p>
-              </div>
+            <div className="relative aspect-video bg-muted text-center flex items-center justify-center">
+              <iframe
+                src="https://ai.tapit.club/RoyalInnLodge/"
+                className="w-full h-full"
+                title="Royal Inn Lodge Virtual Tour"
+                loading="lazy"
+                allowFullScreen
+              />
             </div>
 
             {/* Bottom CTA */}
@@ -51,15 +37,17 @@ const VirtualTourSection = () => {
                   Want to see the property?
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Call us for a guided virtual walkthrough
+                  Take a virtual walk through our rooms
                 </p>
               </div>
               <a
-                href="#contact"
+                href="https://ai.tapit.club/RoyalInnLodge/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary"
               >
                 <View className="w-4 h-4" />
-                Explore Virtual Tour
+                Open Full Screen
               </a>
             </div>
           </div>
