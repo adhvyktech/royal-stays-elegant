@@ -84,7 +84,7 @@ const ContactSection = () => {
                 <p className="text-muted-foreground">
                   ROYAL INN LODGE
                   <br />
-                  #150, H.K.P. (Broadway) Road,
+                  151, H.K.P. (Broadway) Road,
                   <br />
                   Shivajinagar, Bangalore – 560051
                 </p>
