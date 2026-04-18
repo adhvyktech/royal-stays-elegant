@@ -14,12 +14,12 @@ import {
 } from "lucide-react";
 
 const nearbyPlaces = [
-  { icon: Bus, text: "Shivajinagar Bus Stand – walkable" },
-  { icon: ShoppingBag, text: "Commercial Street – nearby" },
+  { icon: Bus, text: "Shivajinagar Bus Stand & Metro Station – walkable" },
+  { icon: ShoppingBag, text: "Famous Markets (Commercial Street, Russell Market) – nearby" },
   { icon: Train, text: "Bangalore Cantonment Railway Station – short drive" },
+  { icon: Building, text: "Indian Express, MG Road & Vidhana Soudha – close by" },
+  { icon: Camera, text: "Lalbagh Botanical Garden & City Attractions" },
   { icon: Hospital, text: "Hospitals & clinics close by" },
-  { icon: Building, text: "Business hubs & offices nearby" },
-  { icon: ShoppingBag, text: "Shopping areas within reach" },
 ];
 
 const whyChoose = [
