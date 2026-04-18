@@ -10,9 +10,14 @@ const Footer = () => {
             <h4 className="text-lg font-serif font-semibold mb-1">
               Royal Inn Lodge
             </h4>
-            <p className="text-sm text-primary-foreground/70">
-              © {currentYear} Royal Inn Lodge. All Rights Reserved.
-            </p>
+            <div className="flex flex-col sm:flex-row items-center sm:gap-4 justify-center md:justify-start">
+              <p className="text-sm text-primary-foreground/70">
+                © {currentYear} Royal Inn Lodge. All Rights Reserved.
+              </p>
+              <a href="/sitemap.html" className="text-sm text-gold hover:text-gold-light mt-1 sm:mt-0 transition-colors">
+                Sitemap
+              </a>
+            </div>
           </div>
 
           {/* Credits */}

@@ -37,8 +37,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-            Modern rooms with premium comfort, ideal for families, corporate
-            guests & transit stays.
+            Modern rooms with premium comfort near Commercial Street & Cantonment Railway Station, ideal for families, corporate guests & transit stays.
           </p>
 
           {/* Highlight Badges */}
